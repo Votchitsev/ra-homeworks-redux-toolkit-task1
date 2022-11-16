@@ -1,0 +1,10 @@
+.facts-list {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.fact {
+  padding: 15px;
+  font-size: 1.5em;
+  color: green;
+}

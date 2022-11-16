@@ -7,7 +7,7 @@ function Facts() {
 
   return (
     <div className='facts-list'>
-      { facts.map(fact => <div className='fact'>{ fact }</div>) }
+      { facts.map(fact => <div className='fact' key={ fact.id }>{ fact.content }</div>) }
     </div>
   )
 }
